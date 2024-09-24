@@ -9,13 +9,11 @@ The LEMP stack is commonly used for hosting websites, blogs, content management 
 
 ### STEPS INVOLVED
 - Step 0 - Preparing Prerequisites
-- Step 1 - [Installing the Nginx Web Server](#installing-the-nginx-web-server)
-- Step 2 - [Installing MySQL](#installing-mysql)
-- Step 3 - [Installing PHP](#installing-php)
-- Step 4 - [Configuring Nginx to use PHP Processor](#configuring-nginx-to-use-php-processor)
-- Step 5 -[Testing PHP with Nginx](#testing-php-with-nginx)
-- Step 6 - [Retrieving data from MySQL database with PHP](#retrieving-data-from-mysql-database-with-php)
-
+- Step 1 - Installing the Nginx Web Server
+- Step 3 - Installing PHP
+- Step 4 - Configuring Nginx to use PHP Processor
+- Step 5 -Testing PHP with Nginx
+- Step 6 - Retrieving data from MySQL database with PHP
 ## Preparing the Prerequisites
 - **Knowledge Requirements:** Familiarity with SQL syntax[SQL syntax and most commonly used commands](https://www.w3schools.com/sql/sql_syntax.asp) and the [Nano](https://www.linuxandubuntu.com/home/nano-cli-text-editor-for-everyone-basic-tutorials/) editor
 
