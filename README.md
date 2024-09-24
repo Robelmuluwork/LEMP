@@ -272,7 +272,7 @@ Create a new Database in mysql:
 ```sql
 CREATE DATABASE example_database;
 ```
-Create a new user (e.g., ayopo) with a password in mysql:
+Create a new user  with a password in mysql:
 ```sql
 CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';
 ```
