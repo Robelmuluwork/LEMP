@@ -28,10 +28,6 @@ The LEMP stack is commonly used for hosting websites, blogs, content management 
 ![image7](https://github.com/user-attachments/assets/c3cc32e6-1b71-45ee-8b25-61b50775b5c7)
 
 3. Set up a security group with the appropriate rules (HTTP, HTTPS, and SSH).
-
-
-![alt text](images/set%20up%20the%20network%20security%20group.png)
-
 Set up the rules as shown in the screenshot above.
 ![image8](https://github.com/user-attachments/assets/44a3812b-4342-4c76-a991-a6df2c29a700)
 
