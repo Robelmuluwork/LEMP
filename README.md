@@ -270,7 +270,7 @@ sudo mysql -p
 
 Create a new Database in mysql:
 ```sql
-CREATE DATABASE lemp_database;
+CREATE DATABASE example_database;
 ```
 Create a new user (e.g., ayopo) with a password in mysql:
 ```sql
