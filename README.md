@@ -1,9 +1,15 @@
 # LEMP STACK IMPLEMENTATION ON AWS EC2
-This guide walks through the steps to install and configure a LEMP (Linux, Nginx, MySQL, PHP) stack on an AWS EC2 t2.micro instance running Ubuntu 24.04 LTS. This setup will allow you to host and manage a dynamic website with a MySQL database and PHP processing on an Nginx web server.
+The LEMP stack is a collection of software technologies that work together to host and serve dynamic websites and web applications. It is composed of the following components:
+
+Linux: The operating system, which provides the foundation for the stack.
+Nginx: The web server responsible for handling HTTP requests and serving web pages to users.
+MySQL (or MariaDB): The database management system, used to store and retrieve data for your website or application.
+PHP: The server-side scripting language used for dynamic content processing, often to interact with the MySQL database and render dynamic web pages.
+The LEMP stack is commonly used for hosting websites, blogs, content management systems (CMS), and web applications.
 
 ### STEPS INVOLVED
-- Step 0 -  [Preparing the Prerequisites](#preparing-the-prerequisites)
--  Step 1 - [Installing the Nginx Web Server](#installing-the-nginx-web-server)
+- Step 0 - Preparing Prerequisites
+- Step 1 - [Installing the Nginx Web Server](#installing-the-nginx-web-server)
 - Step 2 - [Installing MySQL](#installing-mysql)
 - Step 3 - [Installing PHP](#installing-php)
 - Step 4 - [Configuring Nginx to use PHP Processor](#configuring-nginx-to-use-php-processor)
@@ -11,10 +17,7 @@ This guide walks through the steps to install and configure a LEMP (Linux, Nginx
 - Step 6 - [Retrieving data from MySQL database with PHP](#retrieving-data-from-mysql-database-with-php)
 
 ## Preparing the Prerequisites
-- **Knowledge Requirements:** Familiarity with SQL syntax and the Nano editor.
-- **AWS Account:** Required to set up the Ubuntu server.
-- **Terminal:** Use Git Bash or any terminal that supports SSH.
-
+- **Knowledge Requirements:** Familiarity with SQL syntax[SQL syntax and most commonly used commands](https://www.w3schools.com/sql/sql_syntax.asp) and the [Nano](https://www.linuxandubuntu.com/home/nano-cli-text-editor-for-everyone-basic-tutorials/) editor
 
 ### Instance Setup
 1. In the AWS console, create a new t2.micro (or t3.micro) instance with the Ubuntu Server 24.04 LTS image.
