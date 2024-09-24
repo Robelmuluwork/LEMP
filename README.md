@@ -281,8 +281,16 @@ Grant all privileges on the lemp_database database to the new user:
 ```sql
 GRANT ALL PRIVILEGES ON example_database.* TO 'example_user'@'%';
 ```
-
-Exit the mysql console.
+```sql
+FLUSH PRIVILAGE
+```
+create table 
+```sql
+CREATE TABLE example_database.todo_list(
+item_id INT AUTO_INCREMENT,
+content VARCHAR(255)
+PRIMARY KEY (item_id)
+```
 
 Insert Sample Data into the todo_list Table with:
 ```sql
