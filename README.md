@@ -62,7 +62,6 @@ ssh -i "Private-key-name.pem" ubuntu@<Public IP address>
    ```bash
    sudo systemctl status nginx
    ```
-![alt text](images/Nginx%20running.png)
 > If nginx is running successfully you should see see 'active:active(running) in green color like the image below
 ![image5](https://github.com/user-attachments/assets/60fca229-fd64-4be2-9d91-2364bf0e4b67)
 
